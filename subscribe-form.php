@@ -40,7 +40,7 @@ if (isset($_POST['SubscribeEmail'])) {
     function clean_string($string)
     {
         $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
+        return str_ireplace($bad, "", $string);
     }
 
     $email_message .= "Email: " . clean_string($email) . "\n";
