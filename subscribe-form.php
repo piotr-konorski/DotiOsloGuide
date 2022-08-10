@@ -61,7 +61,7 @@ if (isset($_POST['SubscribeEmail'])) {
             <a style="font-family: Lato, sans-serif;text-decoration: none;" href="https://konorska.com">Return to my webpage</a>
         </div>
         <br>
-        <img style="max-height: 500px;" src="images/doti_flag.jpg">
+        <img style="max-height: 500px;" src="images/oslo_contact.jpg">
     </div>
 
 <?php
