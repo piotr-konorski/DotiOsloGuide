@@ -88,12 +88,18 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.imgCaption {
-    position: absolute;
+.imgCaptionDiv {
+    position:absolute; /* or fixed */
+    width:100%;
+    text-align:center; 
+    display: table;
     bottom: 2%;
     margin-bottom: 10px;
-    left: 50%;
-    margin-right: -50%;
+}
+
+.imgCaption {
+    text-align:center;
+    display: table-cell;    
     font-style: italic;
     color:white;
     font-size: large;
